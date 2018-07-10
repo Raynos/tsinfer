@@ -11,24 +11,28 @@
     "url": "https://github.com/raynos/tsinfer/issues",
     "email": "raynos2@gmail.com"
   },
-  "contributors": [{
-    "name": "raynos"
-  }],
-  "dependencies": {
-  },
+  "contributors": [
+    {
+      "name": "raynos"
+    }
+  ],
+  "dependencies": {},
   "devDependencies": {
     "coveralls": "^2.10.0",
     "istanbul": "^0.3.5",
     "lint-trap": "^1.0.0",
+    "multiline": "^1.0.2",
     "opn": "^1.0.1",
     "pre-commit": "0.0.11",
     "tap-spec": "^2.1.1",
-    "tape": "^3.4.0"
+    "tape": "^4.9.1"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://github.com/raynos/tsinfer/raw/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/raynos/tsinfer/raw/master/LICENSE"
+    }
+  ],
   "scripts": {
     "test": "npm run jshint -s && npm run cover -s",
     "unit-test": "node test/index.js | tap-spec",
